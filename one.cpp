@@ -1,20 +1,22 @@
-#include <iostream> //includin the input/output stream or directory
-#include<string> //inclusign the string functions from string directory
-using namespace std; // used for cout/cin function
+#include <iostream>  //including the input/output stream or directory
+#include <string>    //inclusign the string functions from string directory
+using namespace std; // used for including prefixvstd:: for cout/cin etc.
 
-int main() {
+// the main fuction is the start of our code.
+int main()
+{
 
-// displating the out put
+    // displaying the output
     cout << "What is your name?\n";
 
-// making a variable of string type
+    // making a variable of string type
     string name;
 
-// taking the data from the user
+    // Allowinig the user to input the data.
     cin >> name;
 
-// outputting the name that the user just entered
+    // outputting the name that the user just entered
     cout << "your name is " << name << "\n";
-    system("pause");
+    // system("pause");
     return 0;
 }
